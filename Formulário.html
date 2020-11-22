@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3 Ficha 5</title>
+</head>
+<body>
+    <form method="POST" action="Formulário.html">
+        <fieldset>
+            <!--  Name  -->
+            <div>
+            <label for="nome">Name:</label>
+            <input type="text" name="Nome" id="nome">
+            </div>
+
+            <!--  Age  -->
+            <fieldset>
+                <legend>Age</legend> 
+                <label for="menor de 18">&lt;18</label>
+                <input type="radio" name="age" id="menor de 18">
+                <label for="19-35">19-35</label>
+                <input type="radio" name="age" id="19-35">
+                <label for="36-48">36-48</label>
+                <input type="radio" name="age" id="36-48">
+                <label for="maior de 49">&gt;49</label>
+                <input type="radio" name="age" id="maior de 49">
+            </fieldset>
+
+            <!--  Profession/Country  -->
+            
+            <label for="profession">Profession:</label>
+            <input type="text" name="profession" id="profession">
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="0">Portugal</option>
+                <option value="other">Other</option>
+            </select>
+        
+
+            <!--  Interests  -->
+            <fieldset>
+                <legend>Interests</legend>
+                <label for="photography">Photography</label>
+                <input type="checkbox" name="Photography" id="photography">
+                <label for="music">Music</label>
+                <input type="checkbox" name="Music" id="music">
+                <label for="cinema">Cinema</label>
+                <input type="checkbox" name="Cinema" id="cinema">
+                <label for="computers">Computers</label>
+                <input type="checkbox" name="Computers" id="computers">
+            </fieldset>
+            
+            <!--  Opinion  -->
+            <div>
+                How did you find us: <textarea>
+                </textarea>
+            </div>
+
+            <!--  Submit/Reset  -->
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </fieldset>
+    </form>
+</body>
+</html>
